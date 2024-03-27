@@ -1,3 +1,30 @@
+# Teacher-Student Evaluation Web App
+
+## Overview
+The Teacher-Student Evaluation Web App is an interactive platform designed to revolutionize the way courses are published and teachers are evaluated. Utilizing a modern tech stack including React, Node.js, REST APIs, Auth0, Prisma, MySQL, and Google Cloud, this application offers a seamless experience for both students and educators. Deployed on Vercel, it ensures high performance and constant availability.
+
+## Features
+- **Course Publishing**: Enables educators to easily publish and manage course content.
+- **Teacher Evaluations**: Allows students to provide feedback on their educational experience.
+- **Real-time Interactions**: Leveraging REST APIs for smooth and immediate data exchange.
+- **Secure Authentication**: Incorporates Auth0 for robust security and user authentication.
+- **Responsive Design**: Ensures a consistent experience across all devices.
+
+## Technology Stack
+- **Front-End**: React.js for a dynamic and responsive UI.
+- **Back-End**: Node.js with Express for server-side logic.
+- **Database**: MySQL with Prisma ORM for efficient data management.
+- **Authentication**: Auth0 for secure user authentication.
+- **Cloud Services**: Google Cloud for additional API services.
+- **Deployment**: Vercel for high availability and performance.
+
+## Getting Started
+
+### Prerequisites
+- Node.js
+- MySQL
+- Vercel account (for deployment)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
