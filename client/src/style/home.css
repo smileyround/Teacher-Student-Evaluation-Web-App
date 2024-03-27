@@ -1,0 +1,41 @@
+/* home.css */
+
+/* Base Styles */
+.home {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn-primary,
+.btn-secondary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+  }
+}
+
+/* Other Responsive Styles or Overrides as Needed */

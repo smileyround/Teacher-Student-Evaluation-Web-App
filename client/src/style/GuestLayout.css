@@ -1,0 +1,83 @@
+.body {
+  background-image: url('https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fHww');
+  background-size: cover; /* 控制背景图片的尺寸，cover表示尽量覆盖整个容器 */
+}
+
+.app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form label {
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #003a70; /* Mulan Imperial Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .weather-info h2 {
+    font-size: 20px;
+  }
+  
+  .weather-info p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .content > div {
+    width: 48%; /* Adjust as needed based on your design */
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    form {
+      align-items: center;
+    }
+  
+    form button {
+      width: 100%;
+    }
+  
+    .content > div {
+      width: 100%;
+    }
+  }
+  
